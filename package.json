@@ -1,0 +1,33 @@
+{
+  "name": "indexlovers-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for IndexLovers insider trading data",
+  "main": "index.js",
+  "bin": {
+    "indexlovers-mcp": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "insider-trading",
+    "finance",
+    "market-data",
+    "sec-form-4",
+    "cnmv",
+    "finansinspektionen",
+    "fca"
+  ],
+  "author": "IndexLovers (https://indexlovers.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jusefek/indexlovers-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  }
+}

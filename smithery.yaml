@@ -1,0 +1,23 @@
+# Smithery MCP Server Manifest
+name: indexlovers-mcp
+displayName: IndexLovers Market Intelligence
+version: 1.0.0
+description: "Institutional-grade insider trading radar for US (SEC), Spain (CNMV), Sweden (FI), and UK (FCA)."
+repository: https://github.com/jusefek/indexlovers-mcp
+homepage: https://indexlovers.com
+icon: https://indexlovers.com/icon.png
+
+command: node index.js
+
+categories:
+  - finance
+  - market-data
+  - regulatory-filings
+
+tags:
+  - insider-trading
+  - market-surveillance
+  - sec-form-4
+  - cnmv
+  - finansinspektionen
+  - fca
